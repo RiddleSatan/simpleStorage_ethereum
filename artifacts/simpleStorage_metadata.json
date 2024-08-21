@@ -6,8 +6,82 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "favNum",
+				"name": "getVal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myfavNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavNum",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +134,11 @@
 	},
 	"sources": {
 		"sampleStorage.sol": {
-			"keccak256": "0x3784d6b95a54c76c137e02be100c6109f8374da738a7f342bf64d38361903152",
+			"keccak256": "0x562ee0b8575d7a47345b325944b78c91921906d8ea8ff8844685cb33f13d96ba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7cbf747cc3eceb6dc79b803a911892d995f9102a46f0d177ea525194ff6101e6",
-				"dweb:/ipfs/QmVxadASvGqLSLs5ujdbAqx7ceXcNsrYjdGFNR1h7EYzMr"
+				"bzz-raw://4171789020431841f0b32b38a298cab054d185eb1f7b6255bf8e80641e047c50",
+				"dweb:/ipfs/QmVvfN8bajEHrb43A97rjkZDq5SW5oQqJW7g1S833QAw37"
 			]
 		}
 	},
